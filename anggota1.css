@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f4f8fc;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #0b2545;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.biodata-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  gap: 20px;
+}
+
+.profile-pic {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 4px solid #007bff;
+}
+
+.biodata-info {
+  flex: 2 1 500px;
+}
+
+.biodata-info h2 {
+  margin-bottom: 20px;
+  color: #0b2545;
+}
+
+.biodata-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.cerpen-section {
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.cerpen-section h2 {
+  color: #0b2545;
+  margin-bottom: 20px;
+}
+
+.cerpen-section p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #0b2545;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+.footer-content p {
+  margin: 6px 0;
+  font-size: 16px;
+}
